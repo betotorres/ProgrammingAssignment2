@@ -2,7 +2,6 @@
 ## rather than compute it repeatedly. This functions create a special "matrix" object that can cache its inverse, so
 ## the operation can be executed with a lower cost
 
-
 #This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
   inverseMatrix <- NULL
